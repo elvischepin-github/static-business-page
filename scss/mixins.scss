@@ -1,0 +1,25 @@
+@mixin button-shadow {
+    background-color: $blue;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 7px;
+    width: 130px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+@mixin main-text {
+    color: $gray;
+    font-size: 1.3em;
+    line-height: 35px;
+    text-align: left;
+    max-width: 560px;
+}
+@mixin black-shadows {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+@mixin gray-text-shadows {
+    text-shadow: 1px 1px 1px rgba(119, 119, 119, 0.2);
+}
+@mixin input-box-shadow {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}

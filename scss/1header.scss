@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    padding: 8px;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 3;
+    p {
+        display: flex;
+        align-self: center;
+        font-size: 1.2em;
+        color: $gray;
+    }
+    button {
+        @include button-shadow;
+        width: 70px !important;
+        height: 35px !important;
+        font-size: 1em !important;
+    }
+}
+
+@media (max-width: 440px) {
+    header {
+        justify-content: space-around;
+        gap: 100px;
+    }
+}
